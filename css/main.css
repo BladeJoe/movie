@@ -19,22 +19,27 @@ img {
   vertical-align: middle;
 }
 
-ul, li {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
 .container {
-  max-width: 1276px;
+  max-width: 1600px;
   margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-right: auto; 
 }
 
 .visually-hidden {
@@ -47,4 +52,26 @@ h1, h2, h3, h4, h5, h6, p {
   border: 0;
   clip: rect(0 0 0 0);
 }
-/*# sourceMappingURL=main.css.map */
+
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap; 
+  margin: 0;
+  gap: 10px;
+  padding: 0 15px;
+  list-style-type: none;
+}
+
+.list .movies {
+  text-align: center; 
+  max-width: 300px;
+  background-color: #0dcaf0;
+  transition: all 0.7s ease;
+}
+
+.list img {
+  object-fit: contain;
+  object-position: center;
+}

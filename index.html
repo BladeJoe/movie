@@ -18,9 +18,9 @@
 
         <h2 class="text-center fw-bold my-3">Movies catalog</h2>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <form class="col-5 form" action="https://echo.htmlacademy.ru/">
+            <form class="col-lg-3 form" action="https://echo.htmlacademy.ru/">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Name</label>
                     <input type="text" class="form-control" id="textBySearch" aria-describedby="emailHelp">
@@ -28,7 +28,7 @@
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Rating</label>
-                    <input type="Number" class="form-control" id="searchByRating" value="0" min="0" max="10" step="0.1" aria-describedby="emailHelp">
+                    <input type="Number" class="form-control" id="searchByRating" default="0" min="0" max="10" step="0.1" aria-describedby="emailHelp">
                 </div>
 
                 <div class="mb-3">
@@ -47,7 +47,7 @@
                     <button class="btn btn-primary" type="submit">Button</button>
                 </div>
             </form> 
-            <div class="col-7 card-section movie__wrapper row-cols-2 justify-content-between d-flex flex-row flex-wrap border-warning text-center" >
+            <div class="col card-section movie__wrapper row-cols-xl-2 justify-content-around d-flex gap-3 p-0 flex-row flex-wrap border-warning text-center" >
 
 
             </div>
@@ -60,7 +60,7 @@
 
 
     <template id="movie_card" >
-        <div class="card d-flex flex-column gap-2" style="max-width: 360px;">
+        <div class="card d-flex flex-column gap-2" style="width: 350px;">
 
             <img src="#" class="card-img-top movie__img" alt="#" width="380" height="228">
 

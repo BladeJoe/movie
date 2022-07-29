@@ -62,3 +62,7 @@
      wrapper.appendChild(tempFragment)
 
  }
+
+ 
+
+ renderMovies(newArray, elMovieWrapper)

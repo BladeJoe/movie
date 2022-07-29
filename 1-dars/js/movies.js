@@ -1,4 +1,4 @@
-let movies = [
+var movies = [
   {
     "Title": "Patton Oswalt: Annihilation",
     "fulltitle": "Patton Oswalt: Annihilation (2017)",
